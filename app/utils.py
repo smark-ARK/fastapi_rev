@@ -9,3 +9,6 @@ def hash_password(plain_password):
 
 def verify_password(plain, hashed):
     return context.verify(plain, hashed)
+
+
+# lauda lassan
