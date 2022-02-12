@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     SECRET_KEY: str
     ALGORITHM: str
     ACCESS_EXPIRE_MINUTES: int
+    ACCESS_KEY_ID: str
+    SECRET_ACCESS_KEY: str
 
 
 settings = Settings(_env_file=".env")
